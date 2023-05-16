@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prova</title>
+</head>
+<body>
+    <form name="prova">
+        <p>
+            1) Qual comando HTML é utilizado para título?
+        </p>
+        <p>
+            <input type="radio" name="RQ1"> head
+        </p>
+        <p>
+            <input type="radio" name="RQ1"> h1
+        </p>
+        <p>
+            <input type="radio" name="RQ1"> footer
+        </p>
+        <p>
+            <input type="radio" name="RQ1"> img
+        </p>
+    
+    
+        <p>
+            <br>
+            2) Qual tag se utiliza para referenciar um CSS externo?
+        </p>
+        <p>
+            <input type="radio" name="RQ2"> link
+        </p>
+        <p>
+            <input type="radio" name="RQ2"> p
+        </p>
+        <p>
+            <input type="radio" name="RQ2"> script
+        </p>
+        <p>
+            <input type="radio" name="RQ2"> div
+        </p>
+
+
+        <p>
+            <br>
+            3) Para que serve a tag nav?
+        </p>
+        <p>
+            <input type="radio" name="RQ3"> Para criar seção.
+        </p>
+        <p>
+            <input type="radio" name="RQ3"> Para criar título.
+        </p>
+        <p>
+            <input type="radio" name="RQ3"> Para criar parágrafo.
+        </p>
+        <p>
+            <input type="radio" name="RQ3"> Para criar menu.
+        </p>
+        <p>
+            <br>
+            <input type="button" value="Ver resultado" onclick="corrigir()">
+        </p>
+    </form>
+    <p id="exibe">
+
+
+    </p>
+    <scrip src="teste.js">
+      
+    </script>
+
+</body>
+</html>
